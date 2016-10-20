@@ -3,6 +3,14 @@
 
     var shipElem = document.getElementById('ship');
 
+    var ship = {
+      htmlElem: shipElem,
+      velocity: 0,
+      angle: 0,
+    };
+
+    console.log(ship)
+
     // Create your "ship" object and any other variables you might need...
 
 
@@ -29,6 +37,7 @@
      */
     function handleKeys(event) {
         console.log(event.keyCode);
+
 
         // Implement me!
 
